@@ -25,15 +25,21 @@ Bir banka uygulaması geliştirdiğımizi hayal edelim, bizim sorumlu olduğumuz
 
 # **HOMEWORK 2**
 
-Ödev Hakkında:
-Bir yemek arama moturu yapmakla sorumlusunuz, ana ekranda sadece bir arama kutusu ve login olan kullanicinin adı olacak. Kullanici veri girdikce bir arama yapacaksiniz ve cikan sonuclari listeleyeceksiniz. Cikan sonuclar bir kartta listelenir. Kartın uzerine tıkladığınizda o karta odaklanacak. (Border olabilir ,ekranın ortasına gelebilir.). Kartta favorilere ekle butonu vardır. Kart açıkkan F tuşu ile ya da butona basarak favoriye/ekle çıkar işlemi gerçekleştirilebilir. Browser'i kapatip actiktan sonra da favorilerim kalmaya devam etmeli.
+
+### Yemek Arama Motoru
+
+Bir yemek arama moturu yapmakla sorumlusunuz, ana ekranda sadece bir arama kutusu ve login olan kullanicinin adı olacak. 
+Kullanici veri girdikce bir arama yapacaksiniz ve cikan sonuclari listeleyeceksiniz.
+Cikan sonuclar bir kartta listelenir. Kartın uzerine tıkladığınizda o karta odaklanacak. (Border olabilir ,ekranın ortasına gelebilir.). Kartta favorilere ekle butonu vardır. Kart açıkkan F tuşu ile ya da butona basarak favoriye/ekle çıkar işlemi gerçekleştirilebilir. Browser'i kapatip actiktan sonra da favorilerim kalmaya devam etmeli.
+
 
 - Login olan kullanıcı bilgileri endpoint: https://jsonplaceholder.typicode.com/users/1
 - Tüm yemek listesi endpoint: https://jsonplaceholder.typicode.com/todos (title, yemek adı olsun)
-- Uygulama açıldığında kullanıcı bilgileri ve yemek listesi yüklenecek. Bu iki yükleme olurken ekranda loading çıkacak.
+- Uygulama açıldığında kullanıcı bilgileri ve yemek listesi yüklenecek. Bu iki yükleme olurken ekranda loading  çıkacak.
 - Login olan kullanıci bilgisi arama kutusunun ustunde Merhaba, {name} seklinde yazacak.
-- Arama yaparken fuse.js kullanmayı deneyin
-- Ard arda arama yaparken olabildiğince performanslı yazmayı deneyin. (Neler yapılabilir?)
++ Arama yaparken fuse.js kullanmayı deneyin
++ Ard arda arama yaparken olabildiğince performanslı yazmayı deneyin. (Neler yapılabilir?)
+
 
 
 # **HOMEWORK 3**
