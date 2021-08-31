@@ -168,13 +168,13 @@ Burada yazılan cevap son kullanıci tarafından basvuru/{basvuruNo} kısmından
 -Eslint
 
 **Dikkat edelim**
--Tüm formlarda gerekli validasyonlar olsun.
--Back-end yazmak zorunda degilsiniz, back-end olarak firebase ya da mock bir api kullanabilirsiniz.
--Elinizden gelen en iyi şekilde seperation of concerns'e dikkat ederek yazın.
--Admin paneline u:kodluyoruz, p:bootcamp109 bilgileri ile giriş yapabilmeliyim.
--Mümkünse admin paneline bir menü ekleyelim (başvuru listesi, çıkıs gibi işlemleri kapsasın)
--Bonus (Zorunlu degil, deneysel ozellikler)
--Typescript
--Service worker ile offline render destegi
--Mobil uyumlulu guzel bir tasarim
--Kullanilabilir UX
+- Tüm formlarda gerekli validasyonlar olsun.
+- Back-end yazmak zorunda degilsiniz, back-end olarak firebase ya da mock bir api kullanabilirsiniz.
+- Elinizden gelen en iyi şekilde seperation of concerns'e dikkat ederek yazın.
+- Admin paneline u:kodluyoruz, p:bootcamp109 bilgileri ile giriş yapabilmeliyim.
+- Mümkünse admin paneline bir menü ekleyelim (başvuru listesi, çıkıs gibi işlemleri kapsasın)
+- Bonus (Zorunlu degil, deneysel ozellikler)
+- Typescript
+- Service worker ile offline render destegi
+- Mobil uyumlulu guzel bir tasarim
+- Kullanilabilir UX
