@@ -101,8 +101,7 @@ Arkadaslarinizla discord uzerinden code-review yapin. En az 1 kere! Yazdiginiz k
 Daha iyi anlasilmasi icin ornek resimler. (Burada mario ve kare karakterleri yukari, asagi, sag, sol ok tuslariyla hareket edebiliyor. )
 
 
-**HOMEWORK 5
-**
+**HOMEWORK 5**
 
 Karsilanan gereksinimler:
 1. Ana ekran (/login) ekranı
