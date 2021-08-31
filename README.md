@@ -1,6 +1,6 @@
-##**The homework repository of the 109. Innovance React Bootcamp by Kodluyoruz**
+## **The homework repository of the 109. Innovance React Bootcamp by Kodluyoruz**
 
-#**HOMEWORK 1**
+# **HOMEWORK 1**
 
 EFT Uygulaması
 Bir banka uygulaması geliştirdiğımizi hayal edelim, bizim sorumlu olduğumuz kısma gelene kadar kullanıcı çoktan giriş yapmış ilgili menüden para transferi seçeneğini seçmiş olsun. Bizim geliştirmemiz gereken kısımda kullanıcı parayı gönderen hesabı kendi hesapları arasından seçiyor ve paranın gönderileceği hesabın IBAN'ını yazıyor olsun. Ekranda olması gerekenler;
@@ -22,7 +22,7 @@ Herhangi bir işlem esnasında 2 dakikalik geri sayım süresi dolarsa kullanıc
 Notlar: geri bildirim vermek yada cep şifresi almak için alert/prompt metodları kullanılabileceği gibi tamamen özel bir UI'da yapılabilir. Burası size kalmış. Kullanıcının bilgileri, hesapları ve bakiye bilgilerini user_information.js dosyası içerisinden kullanın.
 
 
-#**HOMEWORK 2**
+# **HOMEWORK 2**
 
 Ödev Hakkında:
 Bir yemek arama moturu yapmakla sorumlusunuz, ana ekranda sadece bir arama kutusu ve login olan kullanicinin adı olacak. Kullanici veri girdikce bir arama yapacaksiniz ve cikan sonuclari listeleyeceksiniz. Cikan sonuclar bir kartta listelenir. Kartın uzerine tıkladığınizda o karta odaklanacak. (Border olabilir ,ekranın ortasına gelebilir.). Kartta favorilere ekle butonu vardır. Kart açıkkan F tuşu ile ya da butona basarak favoriye/ekle çıkar işlemi gerçekleştirilebilir. Browser'i kapatip actiktan sonra da favorilerim kalmaya devam etmeli.
@@ -35,7 +35,7 @@ Arama yaparken fuse.js kullanmayı deneyin
 Ard arda arama yaparken olabildiğince performanslı yazmayı deneyin. (Neler yapılabilir?)
 
 
-#**HOMEWORK 3**
+# **HOMEWORK 3**
 
 
 Odev hakkinda
@@ -62,7 +62,7 @@ API Link
 https://restcountries.eu/rest/v2/all
 
 
-#**HOMEWORK 4**
+# **HOMEWORK 4**
 
 React mix example
 Bu proje tamamen ReactJS kullanılarak yapılacaktır.
@@ -96,7 +96,7 @@ Arkadaslarinizla discord uzerinden code-review yapin. En az 1 kere! Yazdiginiz k
 Daha iyi anlasilmasi icin ornek resimler. (Burada mario ve kare karakterleri yukari, asagi, sag, sol ok tuslariyla hareket edebiliyor. )
 
 
-#**HOMEWORK 5**
+# **HOMEWORK 5**
 
 Karsilanan gereksinimler:
 1. Ana ekran (/login) ekranı
