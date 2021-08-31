@@ -5,21 +5,22 @@
 EFT Uygulaması
 Bir banka uygulaması geliştirdiğımizi hayal edelim, bizim sorumlu olduğumuz kısma gelene kadar kullanıcı çoktan giriş yapmış ilgili menüden para transferi seçeneğini seçmiş olsun. Bizim geliştirmemiz gereken kısımda kullanıcı parayı gönderen hesabı kendi hesapları arasından seçiyor ve paranın gönderileceği hesabın IBAN'ını yazıyor olsun. Ekranda olması gerekenler;
 
-Dropdown (parayı gönderecek hesap - bakiye)
-Textbox (para gönderilecek IBAN)
-Numeric box (para miktarı)
-Gönder butonu
-Zaman sayacı (saniye cinsinden, 2 dakikadan geri sayar.)
-Gereksinimler;
+- Dropdown (parayı gönderecek hesap - bakiye)
+- Textbox (para gönderilecek IBAN)
+- Numeric box (para miktarı)
+- Gönder butonu
+- Zaman sayacı (saniye cinsinden, 2 dakikadan geri sayar.)
+- Gereksinimler;
 
-Kullanıcı parayı gönderen hesabı ve paranın gönderileceği hesabı seçmeden gönder butonu aktif olmamalı.
-Kullanıcı gönderilecek para miktarına bakiyesinden daha çok yazamamalı, yazarsa gönder butonu aktif olmamalı ve ekranda hata olmalı.
-Göndere basıldığı zaman miktar 500'den az ise kullanıcıya "Başarılı" geri bildirimi verilmeli.
-Göndere basıldığı zaman miktar 500 veya daha çok ise kullanıcıya "Telefonunuza gelen şifreyi girin" sorusunu soran, 4 karakter numeric input yazabileceği bir UI çıkmalı.
-Şifre girme esnasında 1234 girilirse ve enter'a basılırsa "Başarılı" geri bildirimi verilmeli.
-Şifre 1234 değilse "Şifre yanlış" geri bildirimi verilmeli, 3 kere yanlış şifre girilirse 4.sünde "Hesabınız bloke oldu" geri bildirimi verilmeli
-Herhangi bir işlem esnasında 2 dakikalik geri sayım süresi dolarsa kullanıcıya "Oturumunuz sonlanmıştır" geri bildirimi verilmeli ve sayfa yenilenmeli.
-Notlar: geri bildirim vermek yada cep şifresi almak için alert/prompt metodları kullanılabileceği gibi tamamen özel bir UI'da yapılabilir. Burası size kalmış. Kullanıcının bilgileri, hesapları ve bakiye bilgilerini user_information.js dosyası içerisinden kullanın.
+- Kullanıcı parayı gönderen hesabı ve paranın gönderileceği hesabı seçmeden gönder butonu aktif olmamalı.
+- Kullanıcı gönderilecek para miktarına bakiyesinden daha çok yazamamalı, yazarsa gönder butonu aktif olmamalı ve ekranda hata olmalı.
+- Göndere basıldığı zaman miktar 500'den az ise kullanıcıya "Başarılı" geri bildirimi verilmeli.
+- Göndere basıldığı zaman miktar 500 veya daha çok ise kullanıcıya "Telefonunuza gelen şifreyi girin" sorusunu soran, 4 karakter numeric input yazabileceği bir UI çıkmalı.
+- Şifre girme esnasında 1234 girilirse ve enter'a basılırsa "Başarılı" geri bildirimi verilmeli.
+- Şifre 1234 değilse "Şifre yanlış" geri bildirimi verilmeli, 3 kere yanlış şifre girilirse 4.sünde "Hesabınız bloke oldu" geri bildirimi verilmeli
+- Herhangi bir işlem esnasında 2 dakikalik geri sayım süresi dolarsa kullanıcıya "Oturumunuz sonlanmıştır" geri bildirimi verilmeli ve sayfa yenilenmeli.
+- Notlar: geri bildirim vermek yada cep şifresi almak için alert/prompt metodları kullanılabileceği gibi tamamen özel bir UI'da yapılabilir. Burası size kalmış. 
+- Kullanıcının bilgileri, hesapları ve bakiye bilgilerini user_information.js dosyası içerisinden kullanın.
 
 
 # **HOMEWORK 2**
@@ -27,12 +28,12 @@ Notlar: geri bildirim vermek yada cep şifresi almak için alert/prompt metodlar
 Ödev Hakkında:
 Bir yemek arama moturu yapmakla sorumlusunuz, ana ekranda sadece bir arama kutusu ve login olan kullanicinin adı olacak. Kullanici veri girdikce bir arama yapacaksiniz ve cikan sonuclari listeleyeceksiniz. Cikan sonuclar bir kartta listelenir. Kartın uzerine tıkladığınizda o karta odaklanacak. (Border olabilir ,ekranın ortasına gelebilir.). Kartta favorilere ekle butonu vardır. Kart açıkkan F tuşu ile ya da butona basarak favoriye/ekle çıkar işlemi gerçekleştirilebilir. Browser'i kapatip actiktan sonra da favorilerim kalmaya devam etmeli.
 
-Login olan kullanıcı bilgileri endpoint: https://jsonplaceholder.typicode.com/users/1
-Tüm yemek listesi endpoint: https://jsonplaceholder.typicode.com/todos (title, yemek adı olsun)
-Uygulama açıldığında kullanıcı bilgileri ve yemek listesi yüklenecek. Bu iki yükleme olurken ekranda loading çıkacak.
-Login olan kullanıci bilgisi arama kutusunun ustunde Merhaba, {name} seklinde yazacak.
-Arama yaparken fuse.js kullanmayı deneyin
-Ard arda arama yaparken olabildiğince performanslı yazmayı deneyin. (Neler yapılabilir?)
+- Login olan kullanıcı bilgileri endpoint: https://jsonplaceholder.typicode.com/users/1
+- Tüm yemek listesi endpoint: https://jsonplaceholder.typicode.com/todos (title, yemek adı olsun)
+- Uygulama açıldığında kullanıcı bilgileri ve yemek listesi yüklenecek. Bu iki yükleme olurken ekranda loading çıkacak.
+- Login olan kullanıci bilgisi arama kutusunun ustunde Merhaba, {name} seklinde yazacak.
+- Arama yaparken fuse.js kullanmayı deneyin
+- Ard arda arama yaparken olabildiğince performanslı yazmayı deneyin. (Neler yapılabilir?)
 
 
 # **HOMEWORK 3**
@@ -69,31 +70,31 @@ Bu proje tamamen ReactJS kullanılarak yapılacaktır.
 React'in Virtual DOM mantıgini bozmayan yardimci kutuphane kullanabilirsiniz. (Kesinlikle JQuery gibi DOM'a direk mudahale eden kutuphane kullanmak yasaktır.)
 Ne istiyoruz?
 
-Ekranda 500px X 500px boyutunda köşe renkleri olan bir alan (oyun tahtasi) oluşturun.
+- Ekranda 500px X 500px boyutunda köşe renkleri olan bir alan (oyun tahtasi) oluşturun.
 
-Bir karakter component'i oluşturun. Bu karakter 20px x 20px bir kare de olabilir sizin göstermek istediginiz bir image da olabilir.
+- Bir karakter component'i oluşturun. Bu karakter 20px x 20px bir kare de olabilir sizin göstermek istediginiz bir image da olabilir.
 
-Uygulama acildiginda karakterimiz bu oyun tahtasinda yukari, asagi, sag, sol ok tuslariyla hareket edebilsin istiyoruz.
+- Uygulama acildiginda karakterimiz bu oyun tahtasinda yukari, asagi, sag, sol ok tuslariyla hareket edebilsin istiyoruz.
 
-Space tusuna basili tutulursa karakterin hareket etme hızı iki katına çıkmalı.
+- Space tusuna basili tutulursa karakterin hareket etme hızı iki katına çıkmalı.
 
-Sayfa yenilenirse karakter kaldigi yerden devam etmeli.
+- Sayfa yenilenirse karakter kaldigi yerden devam etmeli.
 
-Karakter oyun tahtasindan cikamamali.
+- Karakter oyun tahtasindan cikamamali.
 
-Ekranda bulunan bir dropdown ile karakter degistirilebilir. Yani birden cok karakter componenti (en az 2) yapmanizi istiyorum.
+- Ekranda bulunan bir dropdown ile karakter degistirilebilir. Yani birden cok karakter componenti (en az 2) yapmanizi istiyorum.
 
-Uygulamayı tamamen React hooks ile yapmayı deneyin. Kendi hooklarinizi yazmakta cekinmeyin.
+- Uygulamayı tamamen React hooks ile yapmayı deneyin. Kendi hooklarinizi yazmakta cekinmeyin.
 
-Olabildigince duzenli kod yazmayi deneyin. Birden cok component olusturun.
+- Olabildigince duzenli kod yazmayi deneyin. Birden cok component olusturun.
 
-Istediginiz bir ESLint kuralini takip edin.
+- Istediginiz bir ESLint kuralini takip edin.
 
-Opsiyonel olarak uygulamanızı vercel, netlify v.b bir servise deploy edin ve linki readme dosyaniza ekleyin.
+- Opsiyonel olarak uygulamanızı vercel, netlify v.b bir servise deploy edin ve linki readme dosyaniza ekleyin.
 
-Arkadaslarinizla discord uzerinden code-review yapin. En az 1 kere! Yazdiginiz kodlari karsilikli olarak nasil daha iyi hale getirebilirsiniz buna bakin.
+- Arkadaslarinizla discord uzerinden code-review yapin. En az 1 kere! Yazdiginiz kodlari karsilikli olarak nasil daha iyi hale getirebilirsiniz buna bakin.
 
-Daha iyi anlasilmasi icin ornek resimler. (Burada mario ve kare karakterleri yukari, asagi, sag, sol ok tuslariyla hareket edebiliyor. )
+- Daha iyi anlasilmasi icin ornek resimler. (Burada mario ve kare karakterleri yukari, asagi, sag, sol ok tuslariyla hareket edebiliyor. )
 
 
 # **HOMEWORK 5**
@@ -122,6 +123,7 @@ Karsilanan gereksinimler:
 
 Bitirme projesi
 Başvuru / ticket yönetim sistemi
+
 Genel Açıklama
 Uygulamamız herkese açık bir başvuru formunun son kullanıcı tarafından doldurulması ile başlıyor. Formu dolduran kullanıcıya başvurusunu takip edebilecegi bir kod veriliyor. Kullanıcı başvuru durumu sayfasından bu kod ile başvurusunun çözülüp çözülemedigini kontrol edebiliyor.
 
