@@ -118,7 +118,7 @@ Karsilanan gereksinimler:
  
  
  
-#**GRADUATION PROJECT**
+# **GRADUATION PROJECT**
 
 Bitirme projesi
 Başvuru / ticket yönetim sistemi
